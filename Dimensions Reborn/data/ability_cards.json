@@ -1,0 +1,1549 @@
+{
+  "abilityCards": [
+    {
+      "id": "ac_001",
+      "name": "Fire Wall",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["Dragonoid", "Delta Dragonoid", "Ultimate Dragonoid", "Infinity Dragonoid"],
+      "description": "Adds 100 G-Power to your Pyrus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_002",
+      "name": "Boosted Dragon",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["Dragonoid", "Delta Dragonoid", "Ultimate Dragonoid", "Infinity Dragonoid"],
+      "description": "Adds 100 G-Power to your Pyrus Dragonoid.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_003",
+      "name": "Fire Tornado",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 50
+        }
+      ],
+      "compatibleBakugan": ["Dragonoid", "Delta Dragonoid", "Ultimate Dragonoid", "Infinity Dragonoid"],
+      "description": "Adds 100 G-Power to your Pyrus Dragonoid and subtracts 50 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_004",
+      "name": "D-Strike Attack",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Delta Dragonoid"],
+      "description": "Adds 200 G-Power to your Delta Dragonoid.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_005",
+      "name": "Ultimate Dragon",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Ultimate Dragonoid"],
+      "description": "Adds 200 G-Power to your Ultimate Dragonoid.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_006",
+      "name": "Flame Striver",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Infinity Dragonoid"],
+      "description": "Adds 300 G-Power to your Infinity Dragonoid.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_007",
+      "name": "Crystal Fang",
+      "type": "Green",
+      "attribute": "Haos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["Tigrerra", "Blade Tigrerra"],
+      "description": "Adds 100 G-Power to your Haos Tigrerra.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_008",
+      "name": "Lightning Shield",
+      "type": "Green",
+      "attribute": "Haos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Blade Tigrerra"],
+      "description": "Adds 200 G-Power to your Blade Tigrerra.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_009",
+      "name": "Hyper Velocity Fang",
+      "type": "Green",
+      "attribute": "Haos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Blade Tigrerra"],
+      "description": "Adds 300 G-Power to your Blade Tigrerra.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_010",
+      "name": "Blue Stealth",
+      "type": "Green",
+      "attribute": "Aquos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["Preyas", "Angelo/Diablo Preyas"],
+      "description": "Adds 100 G-Power to your Aquos Preyas.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_011",
+      "name": "Water Refrain",
+      "type": "Red",
+      "attribute": "Aquos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Preyas", "Angelo/Diablo Preyas"],
+      "description": "Nullifies the opponent's ability.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_012",
+      "name": "Aquos Bubble",
+      "type": "Green",
+      "attribute": "Aquos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Preyas", "Angelo/Diablo Preyas"],
+      "description": "Adds 200 G-Power to your Aquos Preyas.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_013",
+      "name": "Winds of Fury",
+      "type": "Green",
+      "attribute": "Ventus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["Skyress", "Storm Skyress"],
+      "description": "Adds 100 G-Power to your Ventus Skyress.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_014",
+      "name": "Green Nobility Violent Wind",
+      "type": "Green",
+      "attribute": "Ventus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Skyress", "Storm Skyress"],
+      "description": "Adds 200 G-Power to your Ventus Skyress.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_015",
+      "name": "Destruction Meteor Storm",
+      "type": "Green",
+      "attribute": "Ventus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Storm Skyress"],
+      "description": "Adds 300 G-Power to your Storm Skyress.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_016",
+      "name": "Grand Impact",
+      "type": "Green",
+      "attribute": "Subterra",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["Gorem", "Hammer Gorem"],
+      "description": "Adds 100 G-Power to your Subterra Gorem.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_017",
+      "name": "Subterra Gravity",
+      "type": "Red",
+      "attribute": "Subterra",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["Gorem", "Hammer Gorem"],
+      "description": "Subtracts 100 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_018",
+      "name": "Taros Hammer",
+      "type": "Green",
+      "attribute": "Subterra",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Hammer Gorem"],
+      "description": "Adds 200 G-Power to your Hammer Gorem.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_019",
+      "name": "Chaos of the Darkness",
+      "type": "Green",
+      "attribute": "Darkus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["Hydranoid", "Dual Hydranoid", "Alpha Hydranoid"],
+      "description": "Adds 100 G-Power to your Darkus Hydranoid.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_020",
+      "name": "Dual Gazer",
+      "type": "Green",
+      "attribute": "Darkus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Dual Hydranoid"],
+      "description": "Adds 200 G-Power to your Dual Hydranoid.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_021",
+      "name": "Death Trident",
+      "type": "Green",
+      "attribute": "Darkus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Alpha Hydranoid"],
+      "description": "Adds 300 G-Power to your Alpha Hydranoid.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_022",
+      "name": "Indigo Nightmare",
+      "type": "Green",
+      "attribute": "Darkus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Alpha Hydranoid"],
+      "description": "Adds 300 G-Power to your Alpha Hydranoid.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_023",
+      "name": "Pyrus Power Surge",
+      "type": "Blue",
+      "attribute": "Pyrus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 150
+        }
+      ],
+      "compatibleBakugan": ["All Pyrus Bakugan"],
+      "description": "Adds 150 G-Power to your Pyrus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_024",
+      "name": "Aquos Power Surge",
+      "type": "Blue",
+      "attribute": "Aquos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 150
+        }
+      ],
+      "compatibleBakugan": ["All Aquos Bakugan"],
+      "description": "Adds 150 G-Power to your Aquos Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_025",
+      "name": "Subterra Power Surge",
+      "type": "Blue",
+      "attribute": "Subterra",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 150
+        }
+      ],
+      "compatibleBakugan": ["All Subterra Bakugan"],
+      "description": "Adds 150 G-Power to your Subterra Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_026",
+      "name": "Haos Power Surge",
+      "type": "Blue",
+      "attribute": "Haos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 150
+        }
+      ],
+      "compatibleBakugan": ["All Haos Bakugan"],
+      "description": "Adds 150 G-Power to your Haos Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_027",
+      "name": "Darkus Power Surge",
+      "type": "Blue",
+      "attribute": "Darkus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 150
+        }
+      ],
+      "compatibleBakugan": ["All Darkus Bakugan"],
+      "description": "Adds 150 G-Power to your Darkus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_028",
+      "name": "Ventus Power Surge",
+      "type": "Blue",
+      "attribute": "Ventus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 150
+        }
+      ],
+      "compatibleBakugan": ["All Ventus Bakugan"],
+      "description": "Adds 150 G-Power to your Ventus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_029",
+      "name": "Pyrus Enforcement",
+      "type": "Blue",
+      "attribute": "Pyrus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 50
+        }
+      ],
+      "compatibleBakugan": ["All Pyrus Bakugan"],
+      "description": "Adds 100 G-Power to your Pyrus Bakugan and subtracts 50 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_030",
+      "name": "Aquos Enforcement",
+      "type": "Blue",
+      "attribute": "Aquos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 50
+        }
+      ],
+      "compatibleBakugan": ["All Aquos Bakugan"],
+      "description": "Adds 100 G-Power to your Aquos Bakugan and subtracts 50 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_031",
+      "name": "Subterra Enforcement",
+      "type": "Blue",
+      "attribute": "Subterra",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 50
+        }
+      ],
+      "compatibleBakugan": ["All Subterra Bakugan"],
+      "description": "Adds 100 G-Power to your Subterra Bakugan and subtracts 50 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_032",
+      "name": "Haos Enforcement",
+      "type": "Blue",
+      "attribute": "Haos",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 50
+        }
+      ],
+      "compatibleBakugan": ["All Haos Bakugan"],
+      "description": "Adds 100 G-Power to your Haos Bakugan and subtracts 50 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_033",
+      "name": "Darkus Enforcement",
+      "type": "Blue",
+      "attribute": "Darkus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 50
+        }
+      ],
+      "compatibleBakugan": ["All Darkus Bakugan"],
+      "description": "Adds 100 G-Power to your Darkus Bakugan and subtracts 50 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_034",
+      "name": "Ventus Enforcement",
+      "type": "Blue",
+      "attribute": "Ventus",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 50
+        }
+      ],
+      "compatibleBakugan": ["All Ventus Bakugan"],
+      "description": "Adds 100 G-Power to your Ventus Bakugan and subtracts 50 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_035",
+      "name": "Gate Card Nullify",
+      "type": "Red",
+      "attribute": "All",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "field",
+          "effect": "nullify gate",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["All Bakugan"],
+      "description": "Nullifies the Gate Card in play.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_036",
+      "name": "Ability Card Nullify",
+      "type": "Red",
+      "attribute": "All",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["All Bakugan"],
+      "description": "Nullifies the opponent's Ability Card.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_037",
+      "name": "Power Steal",
+      "type": "Red",
+      "attribute": "All",
+      "season": 1,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 100
+        },
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["All Bakugan"],
+      "description": "Steals 100 G-Power from your opponent's Bakugan and adds it to your Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_038",
+      "name": "Triple Node",
+      "type": "Red",
+      "attribute": "All",
+      "season": 1,
+      "timing": "before rolling",
+      "effects": [
+        {
+          "target": "field",
+          "effect": "add bakugan",
+          "value": 1
+        }
+      ],
+      "compatibleBakugan": ["All Bakugan"],
+      "description": "Allows you to add another Bakugan to the battle.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_039",
+      "name": "Burning Dragon",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Neo Dragonoid", "Cross Dragonoid"],
+      "description": "Adds 200 G-Power to your Neo Dragonoid.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_040",
+      "name": "Fire Shield",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        },
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Neo Dragonoid", "Cross Dragonoid"],
+      "description": "Adds 200 G-Power to your Neo Dragonoid and nullifies the opponent's ability.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_041",
+      "name": "Strike Dragon",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 400
+        }
+      ],
+      "compatibleBakugan": ["Neo Dragonoid"],
+      "description": "Adds 400 G-Power to your Neo Dragonoid.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_042",
+      "name": "Dragon Contender",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 400
+        }
+      ],
+      "compatibleBakugan": ["Neo Dragonoid Vortex"],
+      "description": "Adds 400 G-Power to your Neo Dragonoid Vortex.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_043",
+      "name": "Maximum Dragon",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 500
+        }
+      ],
+      "compatibleBakugan": ["Neo Dragonoid Vortex"],
+      "description": "Adds 500 G-Power to your Neo Dragonoid Vortex.",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "id": "ac_044",
+      "name": "Superior Shield",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        },
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Cross Dragonoid"],
+      "description": "Adds 200 G-Power to your Cross Dragonoid and nullifies the opponent's ability.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_045",
+      "name": "Shooting Dragon",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 500
+        }
+      ],
+      "compatibleBakugan": ["Cross Dragonoid"],
+      "description": "Adds 500 G-Power to your Cross Dragonoid.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_046",
+      "name": "Wind Power - Soaring Strike Shot",
+      "type": "Green",
+      "attribute": "Ventus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Ingram"],
+      "description": "Adds 200 G-Power to your Ingram.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_047",
+      "name": "Armored Victory",
+      "type": "Green",
+      "attribute": "Ventus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 100
+        }
+      ],
+      "compatibleBakugan": ["Ingram"],
+      "description": "Adds 200 G-Power to your Ingram and subtracts 100 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_048",
+      "name": "Wind Power - Glimmering Shadow Slash",
+      "type": "Green",
+      "attribute": "Ventus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Master Ingram"],
+      "description": "Adds 300 G-Power to your Master Ingram.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_049",
+      "name": "Wind Power - Extreme Twister",
+      "type": "Green",
+      "attribute": "Ventus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 400
+        }
+      ],
+      "compatibleBakugan": ["Master Ingram"],
+      "description": "Adds 400 G-Power to your Master Ingram.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_050",
+      "name": "Shooting Stardust",
+      "type": "Green",
+      "attribute": "Aquos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Elfin"],
+      "description": "Adds 200 G-Power to your Elfin.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_051",
+      "name": "Blue Shield",
+      "type": "Green",
+      "attribute": "Aquos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        },
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Elfin"],
+      "description": "Adds 200 G-Power to your Elfin and nullifies the opponent's ability.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_052",
+      "name": "Super Moon Rainbow",
+      "type": "Green",
+      "attribute": "Aquos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Minx Elfin"],
+      "description": "Adds 300 G-Power to your Minx Elfin.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_053",
+      "name": "Chattering Claws",
+      "type": "Green",
+      "attribute": "Aquos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Minx Elfin"],
+      "description": "Adds 300 G-Power to your Minx Elfin and subtracts 200 G-Power from your opponent's Bakugan.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_054",
+      "name": "Darkus Thunder",
+      "type": "Green",
+      "attribute": "Darkus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Percival"],
+      "description": "Adds 200 G-Power to your Percival.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_055",
+      "name": "Tri-Gunner",
+      "type": "Green",
+      "attribute": "Darkus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Percival"],
+      "description": "Adds 300 G-Power to your Percival.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_056",
+      "name": "Bind Shield",
+      "type": "Green",
+      "attribute": "Darkus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        },
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Knight Percival"],
+      "description": "Adds 200 G-Power to your Knight Percival and nullifies the opponent's ability.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_057",
+      "name": "Dian Gunner",
+      "type": "Green",
+      "attribute": "Darkus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 500
+        }
+      ],
+      "compatibleBakugan": ["Knight Percival"],
+      "description": "Adds 500 G-Power to your Knight Percival.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_058",
+      "name": "Haos Force",
+      "type": "Green",
+      "attribute": "Haos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Nemus", "Saint Nemus"],
+      "description": "Adds 200 G-Power to your Nemus.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_059",
+      "name": "Corona Hole",
+      "type": "Green",
+      "attribute": "Haos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Nemus"],
+      "description": "Subtracts 300 G-Power from your opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_060",
+      "name": "Elemental Roar",
+      "type": "Green",
+      "attribute": "Haos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Saint Nemus"],
+      "description": "Adds 300 G-Power to your Saint Nemus.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_061",
+      "name": "Divine Light",
+      "type": "Green",
+      "attribute": "Haos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 500
+        }
+      ],
+      "compatibleBakugan": ["Saint Nemus"],
+      "description": "Adds 500 G-Power to your Saint Nemus.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_062",
+      "name": "Gun Lock",
+      "type": "Green",
+      "attribute": "Subterra",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Wilda"],
+      "description": "Adds 200 G-Power to your Wilda.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_063",
+      "name": "Clay Wall",
+      "type": "Green",
+      "attribute": "Subterra",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        },
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Wilda"],
+      "description": "Adds 200 G-Power to your Wilda and nullifies the opponent's ability.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_064",
+      "name": "Atlas Shield",
+      "type": "Green",
+      "attribute": "Subterra",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        },
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Magma Wilda"],
+      "description": "Adds 300 G-Power to your Magma Wilda and nullifies the opponent's ability.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_065",
+      "name": "Gallows Punch",
+      "type": "Green",
+      "attribute": "Subterra",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 400
+        }
+      ],
+      "compatibleBakugan": ["Magma Wilda"],
+      "description": "Adds 400 G-Power to your Magma Wilda.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_066",
+      "name": "General Quasar",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Viper Helios"],
+      "description": "Adds 300 G-Power to your Viper Helios.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_067",
+      "name": "Nova Defenser",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        },
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Viper Helios"],
+      "description": "Adds 200 G-Power to your Viper Helios and nullifies the opponent's ability.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_068",
+      "name": "FARBAS",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "restore G-Power",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Cyborg Helios"],
+      "description": "Restores all G-Power lost during battle to your Cyborg Helios.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_069",
+      "name": "Defuse Quasar",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 300
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 300
+        }
+      ],
+      "compatibleBakugan": ["Cyborg Helios"],
+      "description": "Adds 300 G-Power to your Cyborg Helios and subtracts 300 G-Power from your opponent's Bakugan.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_070",
+      "name": "FARBAS MK2",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "restore G-Power",
+          "value": 0
+        },
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["Helios MK2"],
+      "description": "Restores all G-Power lost during battle to your Helios MK2 and adds 200 G-Power.",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "id": "ac_071",
+      "name": "Blackout Cannon",
+      "type": "Green",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 500
+        },
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["Helios MK2"],
+      "description": "Adds 500 G-Power to your Helios MK2 and nullifies the opponent's ability.",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "id": "ac_072",
+      "name": "Pyrus Ability X",
+      "type": "Blue",
+      "attribute": "Pyrus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["All Pyrus Bakugan"],
+      "description": "Adds 200 G-Power to your Pyrus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_073",
+      "name": "Aquos Ability X",
+      "type": "Blue",
+      "attribute": "Aquos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["All Aquos Bakugan"],
+      "description": "Adds 200 G-Power to your Aquos Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_074",
+      "name": "Subterra Ability X",
+      "type": "Blue",
+      "attribute": "Subterra",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["All Subterra Bakugan"],
+      "description": "Adds 200 G-Power to your Subterra Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_075",
+      "name": "Haos Ability X",
+      "type": "Blue",
+      "attribute": "Haos",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["All Haos Bakugan"],
+      "description": "Adds 200 G-Power to your Haos Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_076",
+      "name": "Darkus Ability X",
+      "type": "Blue",
+      "attribute": "Darkus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["All Darkus Bakugan"],
+      "description": "Adds 200 G-Power to your Darkus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_077",
+      "name": "Ventus Ability X",
+      "type": "Blue",
+      "attribute": "Ventus",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["All Ventus Bakugan"],
+      "description": "Adds 200 G-Power to your Ventus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "ac_078",
+      "name": "Trap Bakugan Enforcement",
+      "type": "Blue",
+      "attribute": "All",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "boost G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["All Trap Bakugan"],
+      "description": "Adds 200 G-Power to your Trap Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "ac_079",
+      "name": "Double Ability",
+      "type": "Red",
+      "attribute": "All",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "self",
+          "effect": "use two abilities",
+          "value": 0
+        }
+      ],
+      "compatibleBakugan": ["All Bakugan"],
+      "description": "Allows you to use two Ability Cards in the same turn.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "ac_080",
+      "name": "Ability Counter",
+      "type": "Red",
+      "attribute": "All",
+      "season": 2,
+      "timing": "during battle",
+      "effects": [
+        {
+          "target": "opponent",
+          "effect": "nullify ability",
+          "value": 0
+        },
+        {
+          "target": "opponent",
+          "effect": "decrease G-Power",
+          "value": 200
+        }
+      ],
+      "compatibleBakugan": ["All Bakugan"],
+      "description": "Nullifies the opponent's ability and subtracts 200 G-Power from their Bakugan.",
+      "rarity": "Rare"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "attributes": [
+    {
+      "name": "Pyrus",
+      "description": "The Attribute of Fire. Pyrus Bakugan are typically offensive with high G-Power and aggressive abilities.",
+      "color": "#FF0000",
+      "advantages": ["Ventus"],
+      "disadvantages": ["Aquos"],
+      "symbol": "pyrus_symbol.png"
+    },
+    {
+      "name": "Aquos",
+      "description": "The Attribute of Water. Aquos Bakugan often have abilities that manipulate the field or opponent's abilities.",
+      "color": "#0000FF",
+      "advantages": ["Pyrus"],
+      "disadvantages": ["Subterra"],
+      "symbol": "aquos_symbol.png"
+    },
+    {
+      "name": "Subterra",
+      "description": "The Attribute of Earth. Subterra Bakugan typically have high defense and endurance.",
+      "color": "#8B4513",
+      "advantages": ["Aquos"],
+      "disadvantages": ["Darkus"],
+      "symbol": "subterra_symbol.png"
+    },
+    {
+      "name": "Haos",
+      "description": "The Attribute of Light. Haos Bakugan often have balanced stats and abilities that counter opponent strategies.",
+      "color": "#FFFF00",
+      "advantages": ["Darkus"],
+      "disadvantages": ["Ventus"],
+      "symbol": "haos_symbol.png"
+    },
+    {
+      "name": "Darkus",
+      "description": "The Attribute of Darkness. Darkus Bakugan typically have abilities that drain power from opponents or have unexpected effects.",
+      "color": "#800080",
+      "advantages": ["Subterra"],
+      "disadvantages": ["Haos"],
+      "symbol": "darkus_symbol.png"
+    },
+    {
+      "name": "Ventus",
+      "description": "The Attribute of Wind. Ventus Bakugan often have abilities focused on speed and evasion.",
+      "color": "#00FF00",
+      "advantages": ["Haos"],
+      "disadvantages": ["Pyrus"],
+      "symbol": "ventus_symbol.png"
+    }
+  ]
+}

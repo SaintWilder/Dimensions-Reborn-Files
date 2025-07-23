@@ -1,0 +1,962 @@
+{
+  "bakugan": [
+    {
+      "id": "s1_001",
+      "name": "Dragonoid",
+      "attributes": ["Pyrus"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Delta Dragonoid",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Boosted Dragon",
+        "Fire Wall",
+        "Fire Tornado"
+      ],
+      "description": "A dragon-like Bakugan with powerful fire abilities. It is the Guardian Bakugan of Dan Kuso.",
+      "image": "dragonoid.png"
+    },
+    {
+      "id": "s1_002",
+      "name": "Delta Dragonoid",
+      "attributes": ["Pyrus"],
+      "season": 1,
+      "baseGPower": 450,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": "Ultimate Dragonoid",
+        "previousEvolution": "Dragonoid"
+      },
+      "abilities": [
+        "Wall Burst",
+        "D-Strike Attack",
+        "Dragonic Enforcement"
+      ],
+      "description": "The evolved form of Dragonoid after absorbing the Infinity Core's energy.",
+      "image": "delta_dragonoid.png"
+    },
+    {
+      "id": "s1_003",
+      "name": "Ultimate Dragonoid",
+      "attributes": ["Pyrus"],
+      "season": 1,
+      "baseGPower": 550,
+      "evolution": {
+        "stage": 3,
+        "nextEvolution": "Infinity Dragonoid",
+        "previousEvolution": "Delta Dragonoid"
+      },
+      "abilities": [
+        "Ultimate Dragon",
+        "Boosted Ultima",
+        "Dragon Plus"
+      ],
+      "description": "The second evolved form of Dragonoid with increased power and abilities.",
+      "image": "ultimate_dragonoid.png"
+    },
+    {
+      "id": "s1_004",
+      "name": "Infinity Dragonoid",
+      "attributes": ["Pyrus"],
+      "season": 1,
+      "baseGPower": 650,
+      "evolution": {
+        "stage": 4,
+        "nextEvolution": null,
+        "previousEvolution": "Ultimate Dragonoid"
+      },
+      "abilities": [
+        "Flame Strider",
+        "Dive Fleet",
+        "Fire Grandam",
+        "Aero Dragon",
+        "Burning Dragonia",
+        "Lunatic Burst"
+      ],
+      "description": "The final evolved form of Dragonoid in Season 1, after absorbing the Silent Core and Infinity Core.",
+      "image": "infinity_dragonoid.png"
+    },
+    {
+      "id": "s1_005",
+      "name": "Tigrerra",
+      "attributes": ["Haos"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Blade Tigrerra",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Crystal Fang",
+        "Velocity Fang"
+      ],
+      "description": "A tiger-like Bakugan that is the Guardian Bakugan of Runo Misaki.",
+      "image": "tigrerra.png"
+    },
+    {
+      "id": "s1_006",
+      "name": "Blade Tigrerra",
+      "attributes": ["Haos"],
+      "season": 1,
+      "baseGPower": 450,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Tigrerra"
+      },
+      "abilities": [
+        "Lightning Shield",
+        "Shade Ability",
+        "Hyper Velocity Fang"
+      ],
+      "description": "The evolved form of Tigrerra with blades on its body for enhanced combat.",
+      "image": "blade_tigrerra.png"
+    },
+    {
+      "id": "s1_007",
+      "name": "Preyas",
+      "attributes": ["Aquos"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Blue Stealth",
+        "Water Refrain",
+        "Aquos Bubble"
+      ],
+      "specialAbilities": [
+        "Attribute Change"
+      ],
+      "description": "A chameleon-like Bakugan with the ability to change attributes. Guardian Bakugan of Marucho Marukura.",
+      "image": "preyas.png"
+    },
+    {
+      "id": "s1_008",
+      "name": "Angelo/Diablo Preyas",
+      "attributes": ["Aquos"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Aquos Guardian",
+        "Aquos Cyclone",
+        "Slumping Rocket"
+      ],
+      "specialAbilities": [
+        "Form Change"
+      ],
+      "description": "A dual-personality Bakugan that evolved from Preyas's ball. Can switch between Angelo (good) and Diablo (evil) forms.",
+      "image": "angelo_diablo_preyas.png"
+    },
+    {
+      "id": "s1_009",
+      "name": "Skyress",
+      "attributes": ["Ventus"],
+      "season": 1,
+      "baseGPower": 360,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Storm Skyress",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Winds of Fury",
+        "Green Nobility Violent Wind"
+      ],
+      "description": "A phoenix-like Bakugan that is the Guardian Bakugan of Shun Kazami.",
+      "image": "skyress.png"
+    },
+    {
+      "id": "s1_010",
+      "name": "Storm Skyress",
+      "attributes": ["Ventus"],
+      "season": 1,
+      "baseGPower": 450,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Skyress"
+      },
+      "abilities": [
+        "Destruction Meteor Storm",
+        "Green Nobility Violent Wind",
+        "Whirlwind Lightning Sword"
+      ],
+      "description": "The evolved form of Skyress with enhanced wind abilities.",
+      "image": "storm_skyress.png"
+    },
+    {
+      "id": "s1_011",
+      "name": "Gorem",
+      "attributes": ["Subterra"],
+      "season": 1,
+      "baseGPower": 380,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Hammer Gorem",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Grand Impact",
+        "Subterra Gravity"
+      ],
+      "description": "A rock-like Bakugan that is the Guardian Bakugan of Julie Makimoto.",
+      "image": "gorem.png"
+    },
+    {
+      "id": "s1_012",
+      "name": "Hammer Gorem",
+      "attributes": ["Subterra"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Gorem"
+      },
+      "abilities": [
+        "Grand Impact",
+        "Taros Hammer",
+        "Subterra Gravity"
+      ],
+      "description": "The evolved form of Gorem with a massive hammer for enhanced combat.",
+      "image": "hammer_gorem.png"
+    },
+    {
+      "id": "s1_013",
+      "name": "Hydranoid",
+      "attributes": ["Darkus"],
+      "season": 1,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Dual Hydranoid",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Chaos of the Darkness",
+        "Auragano Revenge"
+      ],
+      "description": "A hydra-like Bakugan that is the Guardian Bakugan of Masquerade and later Alice Gehabich.",
+      "image": "hydranoid.png"
+    },
+    {
+      "id": "s1_014",
+      "name": "Dual Hydranoid",
+      "attributes": ["Darkus"],
+      "season": 1,
+      "baseGPower": 450,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": "Alpha Hydranoid",
+        "previousEvolution": "Hydranoid"
+      },
+      "abilities": [
+        "Dual Gazer",
+        "Destruction Impact",
+        "Gazer Exedra"
+      ],
+      "description": "The evolved form of Hydranoid with two heads for enhanced combat.",
+      "image": "dual_hydranoid.png"
+    },
+    {
+      "id": "s1_015",
+      "name": "Alpha Hydranoid",
+      "attributes": ["Darkus"],
+      "season": 1,
+      "baseGPower": 550,
+      "evolution": {
+        "stage": 3,
+        "nextEvolution": null,
+        "previousEvolution": "Dual Hydranoid"
+      },
+      "abilities": [
+        "Death Trident",
+        "Indigo Nightmare",
+        "Destroy Vanish",
+        "Chaos Leap Sting"
+      ],
+      "description": "The final evolved form of Hydranoid with three heads and immense power.",
+      "image": "alpha_hydranoid.png"
+    },
+    {
+      "id": "s1_016",
+      "name": "Reaper",
+      "attributes": ["Darkus"],
+      "season": 1,
+      "baseGPower": 370,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Double Dimension",
+        "Dimension Four"
+      ],
+      "description": "A grim reaper-like Bakugan used by Masquerade.",
+      "image": "reaper.png"
+    },
+    {
+      "id": "s1_017",
+      "name": "Falconeer",
+      "attributes": ["Ventus", "Pyrus", "Aquos", "Subterra", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 320,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Feather Storm",
+        "Dive Attack"
+      ],
+      "description": "A falcon-like Bakugan commonly used by many brawlers.",
+      "image": "falconeer.png"
+    },
+    {
+      "id": "s1_018",
+      "name": "Saurus",
+      "attributes": ["Subterra", "Pyrus", "Aquos", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Saurus Glow",
+        "Nose Slap"
+      ],
+      "description": "A dinosaur-like Bakugan commonly used by many brawlers.",
+      "image": "saurus.png"
+    },
+    {
+      "id": "s1_019",
+      "name": "Juggernoid",
+      "attributes": ["Aquos", "Pyrus", "Subterra", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Depth Tornado",
+        "Solar Plexus"
+      ],
+      "description": "A turtle-like Bakugan with strong defensive capabilities.",
+      "image": "juggernoid.png"
+    },
+    {
+      "id": "s1_020",
+      "name": "Griffon",
+      "attributes": ["Ventus", "Pyrus", "Aquos", "Subterra", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Tornado Pandemonium",
+        "Feather Storm"
+      ],
+      "description": "A griffin-like Bakugan with strong aerial abilities.",
+      "image": "griffon.png"
+    },
+    {
+      "id": "s1_021",
+      "name": "Fear Ripper",
+      "attributes": ["Darkus", "Pyrus", "Aquos", "Subterra", "Ventus", "Haos"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Slash Zero",
+        "Rip Claw"
+      ],
+      "description": "A demon-like Bakugan with sharp claws for combat.",
+      "image": "fear_ripper.png"
+    },
+    {
+      "id": "s1_022",
+      "name": "Robotallion",
+      "attributes": ["Pyrus", "Aquos", "Subterra", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Robotallion Enforcement",
+        "Robo Punch"
+      ],
+      "description": "A robot-like Bakugan with mechanical combat abilities.",
+      "image": "robotallion.png"
+    },
+    {
+      "id": "s1_023",
+      "name": "Serpenoid",
+      "attributes": ["Ventus", "Pyrus", "Aquos", "Subterra", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 320,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Poison Fang",
+        "Staring Eye"
+      ],
+      "description": "A snake-like Bakugan with quick striking abilities.",
+      "image": "serpenoid.png"
+    },
+    {
+      "id": "s1_024",
+      "name": "Siege",
+      "attributes": ["Haos", "Pyrus", "Aquos", "Subterra", "Ventus", "Darkus"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Haos Freeze",
+        "Shining Bolt"
+      ],
+      "description": "A knight-like Bakugan with a lance and shield.",
+      "image": "siege.png"
+    },
+    {
+      "id": "s1_025",
+      "name": "Mantris",
+      "attributes": ["Subterra", "Pyrus", "Aquos", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Slice Cutter",
+        "Twin Machete"
+      ],
+      "description": "A mantis-like Bakugan with sharp blades for combat.",
+      "image": "mantris.png"
+    },
+    {
+      "id": "s1_026",
+      "name": "Centipoid",
+      "attributes": ["Darkus", "Pyrus", "Aquos", "Subterra", "Ventus", "Haos"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Spiced Assault",
+        "Acid Bubble"
+      ],
+      "description": "A centipede-like Bakugan with multiple legs for combat.",
+      "image": "centipoid.png"
+    },
+    {
+      "id": "s1_027",
+      "name": "Hynoid",
+      "attributes": ["Subterra", "Pyrus", "Aquos", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Desert Thunder",
+        "Howling Fang"
+      ],
+      "description": "A wolf-like Bakugan with strong hunting abilities.",
+      "image": "hynoid.png"
+    },
+    {
+      "id": "s1_028",
+      "name": "Gargonoid",
+      "attributes": ["Pyrus", "Aquos", "Subterra", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Fire Judge",
+        "Lava Burst"
+      ],
+      "description": "A gargoyle-like Bakugan with stone-based abilities.",
+      "image": "gargonoid.png"
+    },
+    {
+      "id": "s1_029",
+      "name": "Terrorclaw",
+      "attributes": ["Aquos", "Pyrus", "Subterra", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Crab Claw",
+        "Deep Crunch"
+      ],
+      "description": "A crab-like Bakugan with powerful pincers for combat.",
+      "image": "terrorclaw.png"
+    },
+    {
+      "id": "s1_030",
+      "name": "El Condor",
+      "attributes": ["Ventus", "Pyrus", "Aquos", "Subterra", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Blow Away",
+        "Feather Blast"
+      ],
+      "description": "A condor-like Bakugan with strong aerial abilities.",
+      "image": "el_condor.png"
+    },
+    {
+      "id": "s1_031",
+      "name": "Bee Striker",
+      "attributes": ["Ventus", "Pyrus", "Aquos", "Subterra", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Poison Stinger",
+        "Hive Mind"
+      ],
+      "description": "A bee-like Bakugan with stinging attacks.",
+      "image": "bee_striker.png"
+    },
+    {
+      "id": "s1_032",
+      "name": "Monarus",
+      "attributes": ["Haos", "Pyrus", "Aquos", "Subterra", "Ventus", "Darkus"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Powder Blast",
+        "Wing Burst"
+      ],
+      "description": "A butterfly-like Bakugan with colorful wings.",
+      "image": "monarus.png"
+    },
+    {
+      "id": "s1_033",
+      "name": "Rattleoid",
+      "attributes": ["Darkus", "Pyrus", "Aquos", "Subterra", "Ventus", "Haos"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Poison Fang",
+        "Death Rattle"
+      ],
+      "description": "A rattlesnake-like Bakugan with venomous attacks.",
+      "image": "rattleoid.png"
+    },
+    {
+      "id": "s1_034",
+      "name": "Limulus",
+      "attributes": ["Aquos", "Pyrus", "Subterra", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Tail Blade",
+        "Ancient Shell"
+      ],
+      "description": "A horseshoe crab-like Bakugan with ancient origins.",
+      "image": "limulus.png"
+    },
+    {
+      "id": "s1_035",
+      "name": "Manion",
+      "attributes": ["Haos", "Pyrus", "Aquos", "Subterra", "Ventus", "Darkus"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Light Wave",
+        "Mane Surge"
+      ],
+      "description": "A lion-like Bakugan with a glowing mane.",
+      "image": "manion.png"
+    },
+    {
+      "id": "s1_036",
+      "name": "Tuskor",
+      "attributes": ["Subterra", "Pyrus", "Aquos", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 340,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Nose Slap",
+        "Tusk Missile"
+      ],
+      "description": "An elephant-like Bakugan with powerful tusks.",
+      "image": "tuskor.png"
+    },
+    {
+      "id": "s1_037",
+      "name": "Cycloid",
+      "attributes": ["Subterra"],
+      "season": 1,
+      "baseGPower": 370,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Right Giganti",
+        "Boom Hammer"
+      ],
+      "description": "A cyclops-like Bakugan used by Clayf of the Legendary Soldiers.",
+      "image": "cycloid.png"
+    },
+    {
+      "id": "s1_038",
+      "name": "Sirenoid",
+      "attributes": ["Aquos"],
+      "season": 1,
+      "baseGPower": 370,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Forcing Wave",
+        "Dive Mirage"
+      ],
+      "description": "A mermaid-like Bakugan with a harp that can control water.",
+      "image": "sirenoid.png"
+    },
+    {
+      "id": "s1_039",
+      "name": "Tentaclear",
+      "attributes": ["Haos", "Pyrus", "Aquos", "Subterra", "Ventus", "Darkus"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Eye Blast",
+        "Tentacle Strike"
+      ],
+      "description": "An eye-like Bakugan with multiple tentacles.",
+      "image": "tentaclear.png"
+    },
+    {
+      "id": "s1_040",
+      "name": "Fourtress",
+      "attributes": ["Subterra"],
+      "season": 1,
+      "baseGPower": 370,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Magma Prominence",
+        "Grand Slide"
+      ],
+      "description": "A fortress-like Bakugan with four faces representing different emotions.",
+      "image": "fourtress.png"
+    },
+    {
+      "id": "s1_041",
+      "name": "Harpus",
+      "attributes": ["Ventus"],
+      "season": 1,
+      "baseGPower": 370,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Feather Storm",
+        "Feather Blast"
+      ],
+      "description": "A harpy-like Bakugan with a sharp tongue and attitude.",
+      "image": "harpus.png"
+    },
+    {
+      "id": "s1_042",
+      "name": "Laserman",
+      "attributes": ["Darkus"],
+      "season": 1,
+      "baseGPower": 370,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Leap Sting",
+        "Darkus Gravity"
+      ],
+      "description": "A robot-like Bakugan with laser cannons.",
+      "image": "laserman.png"
+    },
+    {
+      "id": "s1_043",
+      "name": "Wormquake",
+      "attributes": ["Subterra", "Pyrus", "Aquos", "Ventus", "Haos", "Darkus"],
+      "season": 1,
+      "baseGPower": 330,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Earth Shake",
+        "Tunnel Surprise"
+      ],
+      "description": "A worm-like Bakugan that can burrow underground.",
+      "image": "wormquake.png"
+    },
+    {
+      "id": "s1_044",
+      "name": "Naga",
+      "attributes": ["White"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Silent Naga",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Silent Down",
+        "Darkus Riot"
+      ],
+      "description": "The main antagonist of Season 1, a white dragon-like Bakugan seeking the power of the Silent Core.",
+      "image": "naga.png"
+    },
+    {
+      "id": "s1_045",
+      "name": "Silent Naga",
+      "attributes": ["White"],
+      "season": 1,
+      "baseGPower": 650,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Naga"
+      },
+      "abilities": [
+        "Silent Down",
+        "Darkus Riot",
+        "Silent Crash"
+      ],
+      "description": "Naga after absorbing the Silent Core, with immense destructive power.",
+      "image": "silent_naga.png"
+    },
+    {
+      "id": "s1_046",
+      "name": "Wavern",
+      "attributes": ["White"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Big Bang Blaze",
+        "Crystal Demolition"
+      ],
+      "description": "Naga's sister who holds the Infinity Core. She sacrifices herself to save the world.",
+      "image": "wavern.png"
+    },
+    {
+      "id": "s1_047",
+      "name": "Apollonir",
+      "attributes": ["Pyrus"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Maximum Pyrus",
+        "Neo Valute"
+      ],
+      "description": "The Pyrus Legendary Soldier and leader of the Six Ancient Warriors.",
+      "image": "apollonir.png"
+    },
+    {
+      "id": "s1_048",
+      "name": "Clayf",
+      "attributes": ["Subterra"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Ground Detonator",
+        "Atomic Brave"
+      ],
+      "description": "The Subterra Legendary Soldier of the Six Ancient Warriors.",
+      "image": "clayf.png"
+    },
+    {
+      "id": "s1_049",
+      "name": "Exedra",
+      "attributes": ["Darkus"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Demon Wizard",
+        "Graviton Wizard"
+      ],
+      "description": "The Darkus Legendary Soldier of the Six Ancient Warriors.",
+      "image": "exedra.png"
+    },
+    {
+      "id": "s1_050",
+      "name": "Frosch",
+      "attributes": ["Aquos"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Aquos Ripple",
+        "Sleet Shutdown"
+      ],
+      "description": "The Aquos Legendary Soldier of the Six Ancient Warriors.",
+      "image": "frosch.png"
+    },
+    {
+      "id": "s1_051",
+      "name": "Lars Lion",
+      "attributes": ["Haos"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Sagittarius Arrow",
+        "Valkyrie Barrier"
+      ],
+      "description": "The Haos Legendary Soldier of the Six Ancient Warriors.",
+      "image": "lars_lion.png"
+    },
+    {
+      "id": "s1_052",
+      "name": "Oberus",
+      "attributes": ["Ventus"],
+      "season": 1,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Turmoil",
+        "Tempest Arrow"
+      ],
+      "description": "The Ventus Legendary Soldier of the Six Ancient Warriors.",
+      "image": "oberus.png"
+    }
+  ]
+}

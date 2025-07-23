@@ -1,0 +1,1308 @@
+{
+  "bakugan": [
+    {
+      "id": "s2_001",
+      "name": "Neo Dragonoid",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Cross Dragonoid",
+        "previousEvolution": "Infinity Dragonoid"
+      },
+      "abilities": [
+        "Burning Dragon",
+        "Burning Tornado",
+        "Fire Shield",
+        "Strike Dragon"
+      ],
+      "description": "The reborn form of Drago after the New Vestroia incident. Guardian Bakugan of Dan Kuso.",
+      "image": "neo_dragonoid.png"
+    },
+    {
+      "id": "s2_002",
+      "name": "Neo Dragonoid Vortex",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 450,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": "Cross Dragonoid",
+        "previousEvolution": "Neo Dragonoid"
+      },
+      "abilities": [
+        "Burning Dragon",
+        "Dragon Contender",
+        "Maximum Dragon"
+      ],
+      "description": "Neo Dragonoid with the power of the Perfect Core fully awakened.",
+      "image": "neo_dragonoid_vortex.png"
+    },
+    {
+      "id": "s2_003",
+      "name": "Cross Dragonoid",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 3,
+        "nextEvolution": "Helix Dragonoid",
+        "previousEvolution": "Neo Dragonoid Vortex"
+      },
+      "abilities": [
+        "Superior Shield",
+        "Fire Reflector",
+        "Shooting Dragon",
+        "Dragon Shield"
+      ],
+      "description": "The evolved form of Neo Dragonoid after receiving the Pyrus Attribute Energy.",
+      "image": "cross_dragonoid.png"
+    },
+    {
+      "id": "s2_004",
+      "name": "Ingram",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Master Ingram",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Wind Power - Soaring Strike Shot",
+        "Armored Victory",
+        "Continuous Dance - Phoenix Position"
+      ],
+      "description": "A phoenix-like Bakugan that is the Guardian Bakugan of Shun Kazami in New Vestroia.",
+      "image": "ingram.png"
+    },
+    {
+      "id": "s2_005",
+      "name": "Master Ingram",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Ingram"
+      },
+      "abilities": [
+        "Wind Power - Glimmering Shadow Slash",
+        "Wind Power - Light Intense Impact",
+        "Wind Power - Extreme Twister"
+      ],
+      "description": "The evolved form of Ingram after receiving the Ventus Attribute Energy.",
+      "image": "master_ingram.png"
+    },
+    {
+      "id": "s2_006",
+      "name": "Elfin",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Minx Elfin",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Shooting Stardust",
+        "Wing Mercury",
+        "Blue Shield"
+      ],
+      "specialAbilities": [
+        "Attribute Change"
+      ],
+      "description": "A frog-like Bakugan with the ability to change attributes. Guardian Bakugan of Marucho Marukura in New Vestroia.",
+      "image": "elfin.png"
+    },
+    {
+      "id": "s2_007",
+      "name": "Minx Elfin",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Elfin"
+      },
+      "abilities": [
+        "Super Moon Rainbow",
+        "Chattering Claws",
+        "Ding Dong Ditch"
+      ],
+      "specialAbilities": [
+        "Form Change"
+      ],
+      "description": "The evolved form of Elfin after receiving the Aquos Attribute Energy. Can change between Elf and Ninja forms.",
+      "image": "minx_elfin.png"
+    },
+    {
+      "id": "s2_008",
+      "name": "Percival",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Knight Percival",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Darkus Thunder",
+        "Night Explorer",
+        "Tri-Gunner"
+      ],
+      "description": "A knight-like Bakugan that is the Guardian Bakugan of Ace Grit.",
+      "image": "percival.png"
+    },
+    {
+      "id": "s2_009",
+      "name": "Knight Percival",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Percival"
+      },
+      "abilities": [
+        "Bind Shield",
+        "Geor Gunner",
+        "Dian Gunner"
+      ],
+      "description": "The evolved form of Percival after receiving the Darkus Attribute Energy.",
+      "image": "knight_percival.png"
+    },
+    {
+      "id": "s2_010",
+      "name": "Nemus",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Saint Nemus",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Haos Force",
+        "Corona Hole",
+        "Spark Roa"
+      ],
+      "description": "A wizard-like Bakugan that is the Guardian Bakugan of Baron Leltoy.",
+      "image": "nemus.png"
+    },
+    {
+      "id": "s2_011",
+      "name": "Saint Nemus",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Nemus"
+      },
+      "abilities": [
+        "Haos Force",
+        "Elemental Roar",
+        "Divine Light"
+      ],
+      "description": "The evolved form of Nemus after receiving the Haos Attribute Energy.",
+      "image": "saint_nemus.png"
+    },
+    {
+      "id": "s2_012",
+      "name": "Wilda",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Magma Wilda",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Gun Lock",
+        "Volcano Hammer",
+        "Clay Wall"
+      ],
+      "description": "A rock-like Bakugan that is the Guardian Bakugan of Mira Fermin.",
+      "image": "wilda.png"
+    },
+    {
+      "id": "s2_013",
+      "name": "Magma Wilda",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Wilda"
+      },
+      "abilities": [
+        "Atlas Shield",
+        "Land Twist",
+        "Gallows Punch"
+      ],
+      "description": "The evolved form of Wilda after receiving the Subterra Attribute Energy.",
+      "image": "magma_wilda.png"
+    },
+    {
+      "id": "s2_014",
+      "name": "Viper Helios",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Cyborg Helios",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "General Quasar",
+        "Nova Defenser",
+        "Maximum Quasar"
+      ],
+      "description": "A dragon-like Bakugan that is the Guardian Bakugan of Spectra Phantom.",
+      "image": "viper_helios.png"
+    },
+    {
+      "id": "s2_015",
+      "name": "Cyborg Helios",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 600,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": "Helios MK2",
+        "previousEvolution": "Viper Helios"
+      },
+      "abilities": [
+        "FARBAS",
+        "Defuse Quasar",
+        "Chaos Boost Cannon"
+      ],
+      "description": "The mechanically enhanced form of Viper Helios.",
+      "image": "cyborg_helios.png"
+    },
+    {
+      "id": "s2_016",
+      "name": "Helios MK2",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 700,
+      "evolution": {
+        "stage": 3,
+        "nextEvolution": null,
+        "previousEvolution": "Cyborg Helios"
+      },
+      "abilities": [
+        "FARBAS MK2",
+        "Blackout Cannon",
+        "Chaos Power Cannon"
+      ],
+      "description": "The final evolved form of Helios in New Vestroia, with advanced mechanical enhancements.",
+      "image": "helios_mk2.png"
+    },
+    {
+      "id": "s2_017",
+      "name": "Brontes",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Alto Brontes",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Maniactus Magical",
+        "Ghost Cell",
+        "Atmosphere"
+      ],
+      "description": "A jester-like Bakugan that is the Guardian Bakugan of Gus Grav.",
+      "image": "brontes.png"
+    },
+    {
+      "id": "s2_018",
+      "name": "Alto Brontes",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 600,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Brontes"
+      },
+      "abilities": [
+        "Shining Nightmare",
+        "Wizard Proxy",
+        "Black Gates"
+      ],
+      "description": "The evolved form of Brontes after being mechanically enhanced by Spectra.",
+      "image": "alto_brontes.png"
+    },
+    {
+      "id": "s2_019",
+      "name": "Elico",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Blast Elico",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Hydro Blow",
+        "Screw Blow",
+        "Trick World"
+      ],
+      "specialAbilities": [
+        "Attribute Change"
+      ],
+      "description": "A merman-like Bakugan that can change attributes. Guardian Bakugan of Mylene Farrow.",
+      "image": "elico.png"
+    },
+    {
+      "id": "s2_020",
+      "name": "Blast Elico",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 600,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Elico"
+      },
+      "abilities": [
+        "Ocean Impulse",
+        "Forcement Power",
+        "Reflection Jacket"
+      ],
+      "specialAbilities": [
+        "Attribute Change"
+      ],
+      "description": "The evolved form of Elico after being mechanically enhanced by Spectra.",
+      "image": "blast_elico.png"
+    },
+    {
+      "id": "s2_021",
+      "name": "Premo Vulcan",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": "Rex Vulcan",
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Titan Knuckle",
+        "Heavy Aegis",
+        "Viblow"
+      ],
+      "description": "A gladiator-like Bakugan that is the Guardian Bakugan of Gus Grav.",
+      "image": "premo_vulcan.png"
+    },
+    {
+      "id": "s2_022",
+      "name": "Rex Vulcan",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 600,
+      "evolution": {
+        "stage": 2,
+        "nextEvolution": null,
+        "previousEvolution": "Premo Vulcan"
+      },
+      "abilities": [
+        "Mega Viblow",
+        "Hammer Knuckle",
+        "Hyper Impact"
+      ],
+      "description": "The evolved form of Premo Vulcan after being mechanically enhanced by Spectra.",
+      "image": "rex_vulcan.png"
+    },
+    {
+      "id": "s2_023",
+      "name": "Altair",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Spinal Saucer",
+        "Thunder Fire",
+        "Mega Shield"
+      ],
+      "description": "A mechanical bird-like Bakugan used by Lync Volan.",
+      "image": "altair.png"
+    },
+    {
+      "id": "s2_024",
+      "name": "Wired",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Shower Harpoon",
+        "Blaster Bind",
+        "Zone Hole"
+      ],
+      "description": "A mechanical spider-like Bakugan used by Lync Volan.",
+      "image": "wired.png"
+    },
+    {
+      "id": "s2_025",
+      "name": "Hades",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 600,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Photon Tail",
+        "Full Burst",
+        "Phaser Trident"
+      ],
+      "description": "A mechanical copy of Alpha Hydranoid used by Shadow Prove.",
+      "image": "hades.png"
+    },
+    {
+      "id": "s2_026",
+      "name": "MAC Spider",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Wild Close",
+        "Tarantula Needle",
+        "Spider Cannon"
+      ],
+      "description": "A mechanical spider-like Bakugan used by Shadow Prove.",
+      "image": "mac_spider.png"
+    },
+    {
+      "id": "s2_027",
+      "name": "Macubass",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 500,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "ABSIDS",
+        "Marina Cavitation",
+        "Moby Cannon"
+      ],
+      "description": "A mechanical fish-like Bakugan used by Mylene Farrow.",
+      "image": "macubass.png"
+    },
+    {
+      "id": "s2_028",
+      "name": "Boriates",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 600,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Prometheus Cannon",
+        "Firebolt Axe",
+        "Element Glow"
+      ],
+      "description": "A mechanical warrior-like Bakugan used by Volt Luster.",
+      "image": "boriates.png"
+    },
+    {
+      "id": "s2_029",
+      "name": "Aluze",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 700,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Dora Cannon",
+        "Sling Boomerang",
+        "Sky Impact"
+      ],
+      "description": "A mechanical bird-like Bakugan used by Lync Volan.",
+      "image": "aluze.png"
+    },
+    {
+      "id": "s2_030",
+      "name": "Farbros",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 800,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Twin Horn Pulsar",
+        "Fire Spartan",
+        "Super Cell"
+      ],
+      "description": "A mechanical dragon-like Bakugan used by King Zenoheld.",
+      "image": "farbros.png"
+    },
+    {
+      "id": "s2_031",
+      "name": "Dryoid",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 700,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Murasame Blade",
+        "Trance Sword",
+        "Knuckle Vulcan"
+      ],
+      "description": "A mechanical samurai-like Bakugan used by Prince Hydron.",
+      "image": "dryoid.png"
+    },
+    {
+      "id": "s2_032",
+      "name": "Abis Omega",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Dry World",
+        "Aquos Cyclone",
+        "Blue Stealth"
+      ],
+      "description": "A sea serpent-like Bakugan used by various minor characters.",
+      "image": "abis_omega.png"
+    },
+    {
+      "id": "s2_033",
+      "name": "Atmos",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Typhoon Chase",
+        "Down Burst",
+        "Spiral Pressure"
+      ],
+      "description": "A bird-like Bakugan used by various minor characters.",
+      "image": "atmos.png"
+    },
+    {
+      "id": "s2_034",
+      "name": "Cosmic Ingram",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Cosmic Blow",
+        "Celestial Whirlwind",
+        "Nebula Ripple"
+      ],
+      "description": "A special version of Ingram with cosmic powers.",
+      "image": "cosmic_ingram.png"
+    },
+    {
+      "id": "s2_035",
+      "name": "Cyclone Percival",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Darkus Driver",
+        "Typhoon Devastator",
+        "Chaos Tornado"
+      ],
+      "description": "A special version of Percival with cyclone powers.",
+      "image": "cyclone_percival.png"
+    },
+    {
+      "id": "s2_036",
+      "name": "Dual Elfin",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Twin Stream",
+        "Dual Cyclone",
+        "Aquos Sphere"
+      ],
+      "specialAbilities": [
+        "Attribute Change"
+      ],
+      "description": "A special version of Elfin with dual powers.",
+      "image": "dual_elfin.png"
+    },
+    {
+      "id": "s2_037",
+      "name": "Flare Wilda",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Flare Burst",
+        "Magma Surge",
+        "Volcanic Shield"
+      ],
+      "description": "A special version of Wilda with flare powers.",
+      "image": "flare_wilda.png"
+    },
+    {
+      "id": "s2_038",
+      "name": "Mega Nemus",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Mega Flash",
+        "Sparkly Arrow",
+        "Divine Light"
+      ],
+      "description": "A special version of Nemus with enhanced powers.",
+      "image": "mega_nemus.png"
+    },
+    {
+      "id": "s2_039",
+      "name": "Midnight Percival",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Midnight Claw",
+        "Black Maiden",
+        "Darkus Thunder"
+      ],
+      "description": "A special version of Percival with midnight powers.",
+      "image": "midnight_percival.png"
+    },
+    {
+      "id": "s2_040",
+      "name": "Spin Dragonoid",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Spin Tornado",
+        "Fire Cyclone",
+        "Dragon Twister"
+      ],
+      "description": "A special version of Dragonoid with spinning attack powers.",
+      "image": "spin_dragonoid.png"
+    },
+    {
+      "id": "s2_041",
+      "name": "Hyper Dragonoid",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Hyper Burst",
+        "Fire Tornado",
+        "Maximum Dragon"
+      ],
+      "description": "A special version of Dragonoid with hyper powers.",
+      "image": "hyper_dragonoid.png"
+    },
+    {
+      "id": "s2_042",
+      "name": "Metalfencer",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Doom Cannon",
+        "Battle Support",
+        "Transform"
+      ],
+      "description": "A mechanical Bakugan that can transform into battle armor for other Bakugan.",
+      "image": "metalfencer.png"
+    },
+    {
+      "id": "s2_043",
+      "name": "Klawgor",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Grand Slide",
+        "Claw Crusher",
+        "Earth Power"
+      ],
+      "description": "A crab-like Bakugan used by various minor characters.",
+      "image": "klawgor.png"
+    },
+    {
+      "id": "s2_044",
+      "name": "Leefram",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Wind Pulsar",
+        "Leaf Storm",
+        "Ventus Shield"
+      ],
+      "description": "A leaf-like Bakugan used by various minor characters.",
+      "image": "leefram.png"
+    },
+    {
+      "id": "s2_045",
+      "name": "Scraper",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Light Wave",
+        "Bright Claw",
+        "Haos Beam"
+      ],
+      "description": "A mantis-like Bakugan used by various minor characters.",
+      "image": "scraper.png"
+    },
+    {
+      "id": "s2_046",
+      "name": "Fencer",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Earth Power",
+        "Quick Sand",
+        "Subterra Blade"
+      ],
+      "description": "A scorpion-like Bakugan used by various minor characters.",
+      "image": "fencer.png"
+    },
+    {
+      "id": "s2_047",
+      "name": "Foxbat",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Night Wave",
+        "Shadow Burst",
+        "Darkus Fog"
+      ],
+      "description": "A bat-like Bakugan used by various minor characters.",
+      "image": "foxbat.png"
+    },
+    {
+      "id": "s2_048",
+      "name": "Hammersaur",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Grand Impact",
+        "Earth Hammer",
+        "Subterra Force"
+      ],
+      "description": "A dinosaur-like Bakugan with hammer-like appendages.",
+      "image": "hammersaur.png"
+    },
+    {
+      "id": "s2_049",
+      "name": "Goblinball",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Fire Tornado",
+        "Goblin Strike",
+        "Pyrus Burst"
+      ],
+      "description": "A goblin-like Bakugan used by various minor characters.",
+      "image": "goblinball.png"
+    },
+    {
+      "id": "s2_050",
+      "name": "Hylash",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A dragonfly-like Bakugan Trap that partners with Ingram.",
+      "image": "hylash.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_051",
+      "name": "Tripod Epsilon",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A tripod-like Bakugan Trap that partners with Elfin.",
+      "image": "tripod_epsilon.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_052",
+      "name": "Falcon Fly",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A falcon-like Bakugan Trap that partners with Master Ingram.",
+      "image": "falcon_fly.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_053",
+      "name": "Piercian",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A shield-like Bakugan Trap that partners with Nemus.",
+      "image": "piercian.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_054",
+      "name": "Fortress",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A fortress-like Bakugan Trap that partners with Wilda.",
+      "image": "fortress.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_055",
+      "name": "Darkus Fortress",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A fortress-like Bakugan Trap that partners with Percival.",
+      "image": "darkus_fortress.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_056",
+      "name": "Hexados",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A snake-like Bakugan Trap that partners with Premo Vulcan.",
+      "image": "hexados.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_057",
+      "name": "Spyderfencer",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A spider-like Bakugan Trap that is part of Maxus Helios.",
+      "image": "spyderfencer.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_058",
+      "name": "Grafias",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A griffin-like Bakugan Trap that is part of Maxus Helios.",
+      "image": "grafias.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_059",
+      "name": "Brachium",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A crab-like Bakugan Trap that is part of Maxus Helios.",
+      "image": "brachium.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_060",
+      "name": "Dark Hound",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A dog-like Bakugan Trap that is part of Maxus Helios.",
+      "image": "dark_hound.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_061",
+      "name": "Grakas Hound",
+      "attributes": ["Darkus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A dog-like Bakugan Trap that is part of Maxus Dragonoid.",
+      "image": "grakas_hound.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_062",
+      "name": "Spitarm",
+      "attributes": ["Aquos"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A crab-like Bakugan Trap that is part of Maxus Dragonoid.",
+      "image": "spitarm.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_063",
+      "name": "Dynamo",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A mechanical-like Bakugan Trap that is part of Maxus Dragonoid.",
+      "image": "dynamo.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_064",
+      "name": "Scorpion",
+      "attributes": ["Subterra"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A scorpion-like Bakugan Trap that is part of Maxus Dragonoid.",
+      "image": "scorpion.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_065",
+      "name": "Pythantus",
+      "attributes": ["Ventus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A snake-like Bakugan Trap that is part of Maxus Dragonoid.",
+      "image": "pythantus.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_066",
+      "name": "Carlsnaut",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 350,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [],
+      "description": "A crab-like Bakugan Trap that is part of Maxus Dragonoid.",
+      "image": "carlsnaut.png",
+      "isTrapped": true
+    },
+    {
+      "id": "s2_067",
+      "name": "Maxus Dragonoid",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 2000,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Maximum Revolution",
+        "Aquos Cyclowave",
+        "Haos Drain",
+        "Subterra Seeker",
+        "Ventus Sweep",
+        "Darkus Riot"
+      ],
+      "description": "The combination of Neo Dragonoid with six Bakugan Traps: Grakas Hound, Brachium, Grafias, Dark Hound, Spitarm, and Spyderfencer.",
+      "image": "maxus_dragonoid.png"
+    },
+    {
+      "id": "s2_068",
+      "name": "Maxus Helios",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 3400,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Maximum Revolution",
+        "Ventus Sweep",
+        "Subterra Seeker",
+        "Aquos Cyclowave",
+        "Haos Drain",
+        "Darkus Riot"
+      ],
+      "description": "The combination of Cyborg Helios with six Bakugan Traps: Grakas Hound, Brachium, Grafias, Dark Hound, Spitarm, and Spyderfencer.",
+      "image": "maxus_helios.png"
+    },
+    {
+      "id": "s2_069",
+      "name": "Assail Farbros",
+      "attributes": ["Pyrus"],
+      "season": 2,
+      "baseGPower": 4000,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Shiny Orichalcum",
+        "Shadow Crowley",
+        "Garland Claw",
+        "FARBAS XM"
+      ],
+      "description": "The combination of Farbros with the Assail System, creating a massive battle suit.",
+      "image": "assail_farbros.png"
+    },
+    {
+      "id": "s2_070",
+      "name": "Battle Arm Boriates",
+      "attributes": ["Haos"],
+      "season": 2,
+      "baseGPower": 700,
+      "evolution": {
+        "stage": 1,
+        "nextEvolution": null,
+        "previousEvolution": null
+      },
+      "abilities": [
+        "Olympus Cannon",
+        "Tempest Arrow",
+        "Prometheus Cannon",
+        "Element Glow"
+      ],
+      "description": "Boriates equipped with additional battle arms for enhanced combat.",
+      "image": "battle_arm_boriates.png"
+    }
+  ]
+}

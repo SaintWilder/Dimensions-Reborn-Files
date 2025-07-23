@@ -1,0 +1,705 @@
+.battle-arena {
+  padding: var(--spacing-xl) var(--spacing-md);
+  min-height: calc(100vh - 150px);
+  background-color: var(--background-dark);
+  position: relative;
+}
+
+.battle-arena.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+}
+
+.loading-spinner {
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid var(--button-primary);
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+.battle-title {
+  text-align: center;
+  font-size: var(--font-size-xxl);
+  margin-bottom: var(--spacing-xl);
+  background: linear-gradient(90deg, var(--pyrus-primary), var(--darkus-primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+.section-title {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+  position: relative;
+  padding-bottom: var(--spacing-sm);
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--pyrus-primary), var(--aquos-primary));
+  border-radius: 3px;
+}
+
+/* Preparation Phase */
+.battle-preparation {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.preparation-section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.preparation-section h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-md);
+  color: var(--text-light);
+}
+
+.selection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.selection-item {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all var(--transition-speed);
+  border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.selection-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.selection-item.selected {
+  border: 2px solid var(--button-primary);
+  background-color: rgba(255, 87, 34, 0.1);
+}
+
+.selection-item.selected::after {
+  content: '✓';
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--button-primary);
+  color: var(--text-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.item-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: var(--spacing-md);
+}
+
+.bakugan-sphere {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle at 30% 30%, #444, #111);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 15px rgba(255, 87, 34, 0.3);
+}
+
+.card-placeholder {
+  width: 100px;
+  height: 140px;
+  border-radius: var(--border-radius-sm);
+  background-color: rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.gate-card .card-placeholder {
+  background: linear-gradient(135deg, #a67c00, #f1c40f, #a67c00);
+}
+
+.gate-card.silver .card-placeholder {
+  background: linear-gradient(135deg, #7f8c8d, #bdc3c7, #7f8c8d);
+}
+
+.gate-card.bronze .card-placeholder {
+  background: linear-gradient(135deg, #cd7f32, #e67e22, #cd7f32);
+}
+
+.ability-card.red .card-placeholder {
+  background: linear-gradient(135deg, #c0392b, #e74c3c, #c0392b);
+}
+
+.ability-card.green .card-placeholder {
+  background: linear-gradient(135deg, #27ae60, #2ecc71, #27ae60);
+}
+
+.ability-card.blue .card-placeholder {
+  background: linear-gradient(135deg, #2980b9, #3498db, #2980b9);
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h4 {
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-xs);
+}
+
+.attribute-label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: var(--font-size-sm);
+  text-transform: capitalize;
+  margin-bottom: var(--spacing-xs);
+}
+
+.g-power {
+  font-weight: 600;
+  color: var(--button-primary);
+}
+
+.card-type {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: var(--font-size-sm);
+  text-transform: capitalize;
+  margin-bottom: var(--spacing-xs);
+}
+
+.card-effect {
+  font-size: var(--font-size-xs);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.avatar-placeholder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.battle-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-xl);
+}
+
+.start-battle-btn {
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-size: var(--font-size-lg);
+  min-width: 200px;
+}
+
+.start-battle-btn:disabled {
+  background-color: rgba(255, 87, 34, 0.3);
+  cursor: not-allowed;
+}
+
+/* Gate Card Phase */
+.battle-gate-card {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.battle-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-md);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: var(--border-radius-md);
+}
+
+.player-status, .opponent-status {
+  text-align: center;
+}
+
+.vs-indicator {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--button-primary);
+}
+
+.gate-card-selection {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.gate-card-option {
+  width: 150px;
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all var(--transition-speed);
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.gate-card-option:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gate-card-option.gold {
+  border-color: #f1c40f;
+}
+
+.gate-card-option.silver {
+  border-color: #bdc3c7;
+}
+
+.gate-card-option.bronze {
+  border-color: #e67e22;
+}
+
+.gate-card-option h4 {
+  margin: var(--spacing-sm) 0;
+  font-size: var(--font-size-sm);
+}
+
+.gate-card-option p {
+  font-size: var(--font-size-xs);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Roll Phase */
+.battle-roll {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.active-gate-card {
+  margin-bottom: var(--spacing-xl);
+  display: flex;
+  justify-content: center;
+}
+
+.gate-card-display {
+  width: 200px;
+  height: 280px;
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.gate-card-display.gold {
+  background: linear-gradient(135deg, #a67c00, #f1c40f, #a67c00);
+  color: var(--text-dark);
+}
+
+.gate-card-display.silver {
+  background: linear-gradient(135deg, #7f8c8d, #bdc3c7, #7f8c8d);
+  color: var(--text-dark);
+}
+
+.gate-card-display.bronze {
+  background: linear-gradient(135deg, #cd7f32, #e67e22, #cd7f32);
+  color: var(--text-dark);
+}
+
+.gate-card-display h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+.bakugan-selection {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.bakugan-option {
+  width: 120px;
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all var(--transition-speed);
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.bakugan-option:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bakugan-option.pyrus {
+  border-color: var(--pyrus-primary);
+}
+
+.bakugan-option.aquos {
+  border-color: var(--aquos-primary);
+}
+
+.bakugan-option.subterra {
+  border-color: var(--subterra-primary);
+}
+
+.bakugan-option.haos {
+  border-color: var(--haos-primary);
+}
+
+.bakugan-option.darkus {
+  border-color: var(--darkus-primary);
+}
+
+.bakugan-option.ventus {
+  border-color: var(--ventus-primary);
+}
+
+.bakugan-option h4 {
+  margin: var(--spacing-sm) 0;
+  font-size: var(--font-size-sm);
+}
+
+/* Battle Phase */
+.battle-phase {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.battle-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--spacing-xl) 0;
+  min-height: 300px;
+}
+
+.player-side, .opponent-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.battle-indicator {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.battle-animation {
+  width: 60px;
+  height: 60px;
+  background-color: var(--button-primary);
+  border-radius: 50%;
+  animation: pulse 1s infinite alternate;
+}
+
+.battle-result {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  animation: fadeIn 0.5s;
+}
+
+.battle-result.win {
+  background-color: rgba(46, 204, 113, 0.2);
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.battle-result.lose {
+  background-color: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+}
+
+.battle-result.draw {
+  background-color: rgba(241, 196, 15, 0.2);
+  color: #f1c40f;
+  border: 1px solid #f1c40f;
+}
+
+.bakugan-battle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 200px;
+}
+
+.bakugan-model {
+  width: 120px;
+  height: 120px;
+  margin-bottom: var(--spacing-md);
+  position: relative;
+}
+
+.bakugan-battle.pyrus .bakugan-model {
+  background: radial-gradient(circle at center, var(--pyrus-primary), rgba(229, 57, 53, 0.3));
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(229, 57, 53, 0.5);
+}
+
+.bakugan-battle.aquos .bakugan-model {
+  background: radial-gradient(circle at center, var(--aquos-primary), rgba(30, 136, 229, 0.3));
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(30, 136, 229, 0.5);
+}
+
+.bakugan-battle.subterra .bakugan-model {
+  background: radial-gradient(circle at center, var(--subterra-primary), rgba(141, 110, 99, 0.3));
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(141, 110, 99, 0.5);
+}
+
+.bakugan-battle.haos .bakugan-model {
+  background: radial-gradient(circle at center, var(--haos-primary), rgba(253, 216, 53, 0.3));
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(253, 216, 53, 0.5);
+}
+
+.bakugan-battle.darkus .bakugan-model {
+  background: radial-gradient(circle at center, var(--darkus-primary), rgba(94, 53, 177, 0.3));
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(94, 53, 177, 0.5);
+}
+
+.bakugan-battle.ventus .bakugan-model {
+  background: radial-gradient(circle at center, var(--ventus-primary), rgba(67, 160, 71, 0.3));
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(67, 160, 71, 0.5);
+}
+
+.bakugan-battle h3 {
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-sm);
+}
+
+.g-power-display {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--button-primary);
+}
+
+.ability-cards {
+  margin-top: var(--spacing-xl);
+}
+
+.ability-cards h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.ability-card-selection {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.ability-card-option {
+  width: 100px;
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all var(--transition-speed);
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.ability-card-option.red {
+  border-color: #e74c3c;
+}
+
+.ability-card-option.green {
+  border-color: #2ecc71;
+}
+
+.ability-card-option.blue {
+  border-color: #3498db;
+}
+
+.ability-card-option .card-placeholder {
+  width: 70px;
+  height: 100px;
+  margin-bottom: var(--spacing-xs);
+}
+
+.ability-card-option h4 {
+  font-size: var(--font-size-xs);
+}
+
+/* Result Screen */
+.battle-result-screen {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.result-display {
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-lg);
+  margin-bottom: var(--spacing-xl);
+  animation: fadeIn 1s;
+}
+
+.result-display.victory {
+  background-color: rgba(46, 204, 113, 0.1);
+  border: 1px solid rgba(46, 204, 113, 0.3);
+}
+
+.result-display.defeat {
+  background-color: rgba(231, 76, 60, 0.1);
+  border: 1px solid rgba(231, 76, 60, 0.3);
+}
+
+.victory-text {
+  font-size: var(--font-size-xxl);
+  color: #2ecc71;
+  margin-bottom: var(--spacing-md);
+}
+
+.defeat-text {
+  font-size: var(--font-size-xxl);
+  color: #e74c3c;
+  margin-bottom: var(--spacing-md);
+}
+
+.battle-summary {
+  margin-bottom: var(--spacing-xl);
+}
+
+.summary-stats {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-md);
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-label {
+  font-size: var(--font-size-sm);
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat-value {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+}
+
+.result-actions {
+  margin-top: var(--spacing-xl);
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .battle-field {
+    flex-direction: column;
+    gap: var(--spacing-xl);
+  }
+  
+  .battle-indicator {
+    order: -1;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .gate-card-selection,
+  .bakugan-selection,
+  .ability-card-selection {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gate-card-option,
+  .bakugan-option {
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .summary-stats {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+}

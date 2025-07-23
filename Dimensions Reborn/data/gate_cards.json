@@ -1,0 +1,996 @@
+{
+  "gateCards": [
+    {
+      "id": "gc_001",
+      "name": "Character Card - Dragonoid",
+      "type": "Gold",
+      "attribute": "Pyrus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Dragonoid is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Dragonoid when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_002",
+      "name": "Character Card - Tigrerra",
+      "type": "Gold",
+      "attribute": "Haos",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Tigrerra is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Tigrerra when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_003",
+      "name": "Character Card - Preyas",
+      "type": "Gold",
+      "attribute": "Aquos",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Preyas is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Preyas when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_004",
+      "name": "Character Card - Skyress",
+      "type": "Gold",
+      "attribute": "Ventus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Skyress is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Skyress when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_005",
+      "name": "Character Card - Gorem",
+      "type": "Gold",
+      "attribute": "Subterra",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Gorem is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Gorem when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_006",
+      "name": "Character Card - Hydranoid",
+      "type": "Gold",
+      "attribute": "Darkus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Hydranoid is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Hydranoid when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_007",
+      "name": "Pyrus Reactor",
+      "type": "Silver",
+      "attribute": "Pyrus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Pyrus Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 200
+        }
+      ],
+      "description": "A Gate Card that adds 200 G-Power to Pyrus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_008",
+      "name": "Aquos Reactor",
+      "type": "Silver",
+      "attribute": "Aquos",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Aquos Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 200
+        }
+      ],
+      "description": "A Gate Card that adds 200 G-Power to Aquos Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_009",
+      "name": "Subterra Reactor",
+      "type": "Silver",
+      "attribute": "Subterra",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Subterra Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 200
+        }
+      ],
+      "description": "A Gate Card that adds 200 G-Power to Subterra Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_010",
+      "name": "Haos Reactor",
+      "type": "Silver",
+      "attribute": "Haos",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Haos Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 200
+        }
+      ],
+      "description": "A Gate Card that adds 200 G-Power to Haos Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_011",
+      "name": "Darkus Reactor",
+      "type": "Silver",
+      "attribute": "Darkus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Darkus Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 200
+        }
+      ],
+      "description": "A Gate Card that adds 200 G-Power to Darkus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_012",
+      "name": "Ventus Reactor",
+      "type": "Silver",
+      "attribute": "Ventus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "If Ventus Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 200
+        }
+      ],
+      "description": "A Gate Card that adds 200 G-Power to Ventus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_013",
+      "name": "Energy Merge",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All Bakugan have equal G-Power",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that makes all Bakugan have equal G-Power when activated.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_014",
+      "name": "Triple Battle",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All players must add another Bakugan to the battle",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that forces all players to add another Bakugan to the battle.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_015",
+      "name": "Quartet Battle",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All players must add two more Bakugan to the battle",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that forces all players to add two more Bakugan to the battle.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_016",
+      "name": "Mind Ghost",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When opponent's Bakugan lands on this card",
+          "effect": "Opponent's Bakugan is defeated",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that automatically defeats the opponent's Bakugan when it lands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_017",
+      "name": "Quicksand Freeze",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Opponent cannot use Ability Cards",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that prevents the opponent from using Ability Cards.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_018",
+      "name": "Reinforcement",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Add G-Power to your Bakugan equal to the G-Power of your next rolled Bakugan",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that adds G-Power to your Bakugan equal to the G-Power of your next rolled Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_019",
+      "name": "Pyrus Spotting Out",
+      "type": "Bronze",
+      "attribute": "Pyrus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Pyrus Bakugan cannot use Ability Cards",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that prevents Pyrus Bakugan from using Ability Cards.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_020",
+      "name": "Aquos Spotting Out",
+      "type": "Bronze",
+      "attribute": "Aquos",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Aquos Bakugan cannot use Ability Cards",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that prevents Aquos Bakugan from using Ability Cards.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_021",
+      "name": "Subterra Spotting Out",
+      "type": "Bronze",
+      "attribute": "Subterra",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Subterra Bakugan cannot use Ability Cards",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that prevents Subterra Bakugan from using Ability Cards.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_022",
+      "name": "Haos Spotting Out",
+      "type": "Bronze",
+      "attribute": "Haos",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Haos Bakugan cannot use Ability Cards",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that prevents Haos Bakugan from using Ability Cards.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_023",
+      "name": "Darkus Spotting Out",
+      "type": "Bronze",
+      "attribute": "Darkus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Darkus Bakugan cannot use Ability Cards",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that prevents Darkus Bakugan from using Ability Cards.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_024",
+      "name": "Ventus Spotting Out",
+      "type": "Bronze",
+      "attribute": "Ventus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Ventus Bakugan cannot use Ability Cards",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that prevents Ventus Bakugan from using Ability Cards.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_025",
+      "name": "Pyrus Hazard",
+      "type": "Bronze",
+      "attribute": "Pyrus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Subtract G-Power from non-Pyrus Bakugan",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that subtracts 100 G-Power from non-Pyrus Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_026",
+      "name": "Aquos Hazard",
+      "type": "Bronze",
+      "attribute": "Aquos",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Subtract G-Power from non-Aquos Bakugan",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that subtracts 100 G-Power from non-Aquos Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_027",
+      "name": "Subterra Hazard",
+      "type": "Bronze",
+      "attribute": "Subterra",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Subtract G-Power from non-Subterra Bakugan",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that subtracts 100 G-Power from non-Subterra Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_028",
+      "name": "Haos Hazard",
+      "type": "Bronze",
+      "attribute": "Haos",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Subtract G-Power from non-Haos Bakugan",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that subtracts 100 G-Power from non-Haos Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_029",
+      "name": "Darkus Hazard",
+      "type": "Bronze",
+      "attribute": "Darkus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Subtract G-Power from non-Darkus Bakugan",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that subtracts 100 G-Power from non-Darkus Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_030",
+      "name": "Ventus Hazard",
+      "type": "Bronze",
+      "attribute": "Ventus",
+      "season": 1,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Subtract G-Power from non-Ventus Bakugan",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that subtracts 100 G-Power from non-Ventus Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_031",
+      "name": "Character Card - Neo Dragonoid",
+      "type": "Gold",
+      "attribute": "Pyrus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Neo Dragonoid is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Neo Dragonoid when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_032",
+      "name": "Character Card - Ingram",
+      "type": "Gold",
+      "attribute": "Ventus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Ingram is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Ingram when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_033",
+      "name": "Character Card - Elfin",
+      "type": "Gold",
+      "attribute": "Aquos",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Elfin is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Elfin when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_034",
+      "name": "Character Card - Percival",
+      "type": "Gold",
+      "attribute": "Darkus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Percival is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Percival when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_035",
+      "name": "Character Card - Nemus",
+      "type": "Gold",
+      "attribute": "Haos",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Nemus is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Nemus when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_036",
+      "name": "Character Card - Wilda",
+      "type": "Gold",
+      "attribute": "Subterra",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Wilda is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Wilda when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_037",
+      "name": "Character Card - Helios",
+      "type": "Gold",
+      "attribute": "Pyrus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Helios is on this card",
+          "effect": "Double G-Power",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles the G-Power of Helios when it stands on this card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_038",
+      "name": "Pyrus Reactor X",
+      "type": "Silver",
+      "attribute": "Pyrus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Pyrus Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 300
+        }
+      ],
+      "description": "A Gate Card that adds 300 G-Power to Pyrus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_039",
+      "name": "Aquos Reactor X",
+      "type": "Silver",
+      "attribute": "Aquos",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Aquos Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 300
+        }
+      ],
+      "description": "A Gate Card that adds 300 G-Power to Aquos Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_040",
+      "name": "Subterra Reactor X",
+      "type": "Silver",
+      "attribute": "Subterra",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Subterra Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 300
+        }
+      ],
+      "description": "A Gate Card that adds 300 G-Power to Subterra Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_041",
+      "name": "Haos Reactor X",
+      "type": "Silver",
+      "attribute": "Haos",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Haos Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 300
+        }
+      ],
+      "description": "A Gate Card that adds 300 G-Power to Haos Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_042",
+      "name": "Darkus Reactor X",
+      "type": "Silver",
+      "attribute": "Darkus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Darkus Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 300
+        }
+      ],
+      "description": "A Gate Card that adds 300 G-Power to Darkus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_043",
+      "name": "Ventus Reactor X",
+      "type": "Silver",
+      "attribute": "Ventus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Ventus Bakugan is on this card",
+          "effect": "Add G-Power",
+          "value": 300
+        }
+      ],
+      "description": "A Gate Card that adds 300 G-Power to Ventus Bakugan.",
+      "rarity": "Common"
+    },
+    {
+      "id": "gc_044",
+      "name": "Freeze Enemy",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Opponent's Bakugan G-Power stays at base level",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that keeps the opponent's Bakugan G-Power at base level.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_045",
+      "name": "Active Ghost",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When opponent uses an Ability Card",
+          "effect": "Opponent's Bakugan is defeated",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that defeats the opponent's Bakugan when they use an Ability Card.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_046",
+      "name": "Phantasm",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Return all Bakugan to their owners' hands",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that returns all Bakugan to their owners' hands.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_047",
+      "name": "Forcement Wind",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Add G-Power to your Bakugan based on the number of Bakugan you have on the field",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that adds 100 G-Power to your Bakugan for each Bakugan you have on the field.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_048",
+      "name": "Pyrus Gravity",
+      "type": "Bronze",
+      "attribute": "Pyrus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All non-Pyrus Bakugan lose half their G-Power",
+          "value": 0.5
+        }
+      ],
+      "description": "A Gate Card that causes all non-Pyrus Bakugan to lose half their G-Power.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_049",
+      "name": "Aquos Gravity",
+      "type": "Bronze",
+      "attribute": "Aquos",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All non-Aquos Bakugan lose half their G-Power",
+          "value": 0.5
+        }
+      ],
+      "description": "A Gate Card that causes all non-Aquos Bakugan to lose half their G-Power.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_050",
+      "name": "Subterra Gravity",
+      "type": "Bronze",
+      "attribute": "Subterra",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All non-Subterra Bakugan lose half their G-Power",
+          "value": 0.5
+        }
+      ],
+      "description": "A Gate Card that causes all non-Subterra Bakugan to lose half their G-Power.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_051",
+      "name": "Haos Gravity",
+      "type": "Bronze",
+      "attribute": "Haos",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All non-Haos Bakugan lose half their G-Power",
+          "value": 0.5
+        }
+      ],
+      "description": "A Gate Card that causes all non-Haos Bakugan to lose half their G-Power.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_052",
+      "name": "Darkus Gravity",
+      "type": "Bronze",
+      "attribute": "Darkus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All non-Darkus Bakugan lose half their G-Power",
+          "value": 0.5
+        }
+      ],
+      "description": "A Gate Card that causes all non-Darkus Bakugan to lose half their G-Power.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_053",
+      "name": "Ventus Gravity",
+      "type": "Bronze",
+      "attribute": "Ventus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All non-Ventus Bakugan lose half their G-Power",
+          "value": 0.5
+        }
+      ],
+      "description": "A Gate Card that causes all non-Ventus Bakugan to lose half their G-Power.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_054",
+      "name": "Enemy Down",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Subtract G-Power from opponent's Bakugan",
+          "value": 200
+        }
+      ],
+      "description": "A Gate Card that subtracts 200 G-Power from the opponent's Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_055",
+      "name": "Power Charge",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Add G-Power to your Bakugan",
+          "value": 200
+        }
+      ],
+      "description": "A Gate Card that adds 200 G-Power to your Bakugan.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_056",
+      "name": "Trap Bakugan",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All players must add a Trap Bakugan to the battle if they have one",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that forces all players to add a Trap Bakugan to the battle if they have one.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_057",
+      "name": "Battle Gear Boost",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "All Battle Gear G-Power bonuses are doubled",
+          "value": 2
+        }
+      ],
+      "description": "A Gate Card that doubles all Battle Gear G-Power bonuses.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_058",
+      "name": "Attribute Change",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Change the attribute of your Bakugan",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that allows you to change the attribute of your Bakugan.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_059",
+      "name": "Attribute Swap",
+      "type": "Bronze",
+      "attribute": "All",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "When activated",
+          "effect": "Swap the attributes of all Bakugan on the field",
+          "value": 0
+        }
+      ],
+      "description": "A Gate Card that swaps the attributes of all Bakugan on the field.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "gc_060",
+      "name": "Darkus and Haos Correlation",
+      "type": "Silver",
+      "attribute": "Darkus, Haos",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Darkus and Haos Bakugan are on this card",
+          "effect": "Add G-Power to both Bakugan",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that adds 100 G-Power to both Darkus and Haos Bakugan on this card.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_061",
+      "name": "Pyrus and Subterra Correlation",
+      "type": "Silver",
+      "attribute": "Pyrus, Subterra",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Pyrus and Subterra Bakugan are on this card",
+          "effect": "Add G-Power to both Bakugan",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that adds 100 G-Power to both Pyrus and Subterra Bakugan on this card.",
+      "rarity": "Uncommon"
+    },
+    {
+      "id": "gc_062",
+      "name": "Aquos and Ventus Correlation",
+      "type": "Silver",
+      "attribute": "Aquos, Ventus",
+      "season": 2,
+      "effects": [
+        {
+          "condition": "If Aquos and Ventus Bakugan are on this card",
+          "effect": "Add G-Power to both Bakugan",
+          "value": 100
+        }
+      ],
+      "description": "A Gate Card that adds 100 G-Power to both Aquos and Ventus Bakugan on this card.",
+      "rarity": "Uncommon"
+    }
+  ]
+}
