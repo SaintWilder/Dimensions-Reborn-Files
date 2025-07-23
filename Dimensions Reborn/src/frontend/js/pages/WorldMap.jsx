@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../css/pages/WorldMap.css';
+import '../../css/pages/WorldMap.css';
 
 const WorldMap = () => {
   const [isLoading, setIsLoading] = useState(true);

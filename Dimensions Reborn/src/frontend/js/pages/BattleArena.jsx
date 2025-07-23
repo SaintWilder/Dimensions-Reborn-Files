@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../css/pages/BattleArena.css';
+import '../../css/pages/BattleArena.css';
 
 const BattleArena = () => {
   const [battleState, setBattleState] = useState('preparation'); // preparation, gateCard, roll, battle, result

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import '../css/pages/AuthPages.css';
+import '../../css/pages/AuthPages.css';
 
 const RegisterPage = ({ setIsLoggedIn }) => {
   const [formData, setFormData] = useState({

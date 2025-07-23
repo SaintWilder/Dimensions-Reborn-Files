@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../css/pages/CardCollection.css';
+import '../../css/pages/CardCollection.css';
 
 const CardCollection = () => {
   const [cards, setCards] = useState([]);
