@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../css/pages/BakuganCollection.css';
+import '../../css/pages/BakuganCollection.css';
 
 const BakuganCollection = () => {
   const [bakugan, setBakugan] = useState([]);

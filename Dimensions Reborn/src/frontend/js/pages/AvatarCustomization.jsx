@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../css/pages/AvatarCustomization.css';
+import '../../css/pages/AvatarCustomization.css';
 
 const AvatarCustomization = () => {
   const [isLoading, setIsLoading] = useState(true);
